@@ -14,7 +14,7 @@ spec:
         app: example-app
     spec:
       containers:
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
-        name: example-app
-        ports:
-        - containerPort: 80
+        - image: suuargo/example-app:latest
+          name: example-app
+          ports:
+            - containerPort: 8080
