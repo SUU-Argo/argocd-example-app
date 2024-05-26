@@ -14,7 +14,7 @@ spec:
         app: example-app
     spec:
       containers:
-        - image: suuargo/example-app:0.0.2
+        - image: suuargo/example-app:0.0.1
           name: example-app
           ports:
             - containerPort: 80
