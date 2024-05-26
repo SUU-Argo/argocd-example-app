@@ -3,7 +3,7 @@
 # Define variables
 DOCKER_USERNAME="suuargo"
 IMAGE_NAME="example-app"
-TAG="latest"
+TAG="0.0.1"
 
 set -e
 
