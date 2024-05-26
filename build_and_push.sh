@@ -16,7 +16,7 @@ cd "$(dirname "$0")/src"
 
 # Build the Docker image
 echo "Building Docker image..."
-docker build -t ${IMAGE_NAME} .
+docker build -t ${IMAGE_NAME} --platform="linux/amd64" .
 
 # Tag the image for Docker Hub
 echo "Tagging Docker image..."
